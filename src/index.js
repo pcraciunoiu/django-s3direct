@@ -280,7 +280,7 @@ const addHandlers = (el) => {
 
 const findAndAddHandlers = () => {
   document
-    .querySelectorAll(".s3direct:not(.form-active, .link-active)")
+    .querySelectorAll(".s3direct:not(.form-active, .link-active, .progress-active)")
     .forEach(addHandlers);
 };
 
